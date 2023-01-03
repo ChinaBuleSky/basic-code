@@ -1,4 +1,9 @@
 package Day03.demo01;
 
-public class MyInterfaceStatic {
+public interface MyInterfaceStatic {
+
+    public static void methodStatic(){
+        System.out.println("这是接口的静态方法");
+    }
+
 }
